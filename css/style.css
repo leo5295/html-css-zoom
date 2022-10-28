@@ -1,13 +1,37 @@
 main{
-    background-color: red;
+    background-color: black;
 }
 
 .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 100px 0;
 }
 
 .card{
     padding: 2px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    background-color: rgba(41, 36, 36, 0.5);
+}
+
+.bottombar{
+    height: 100px;
+    background-color: rgb(77, 71, 71);
+}
+
+.container-bottombar{
+    vertical-align: middle;
+}
+
+.icon .fa-solid{
+    font-size: 30px;
+    color: white;
 }
